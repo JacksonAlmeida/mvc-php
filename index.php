@@ -1,0 +1,7 @@
+<?php
+
+include __DIR__ . '/vendor/autoload.php';
+
+use \App\Controller\Pages\Home;
+
+echo Home::getHome();
